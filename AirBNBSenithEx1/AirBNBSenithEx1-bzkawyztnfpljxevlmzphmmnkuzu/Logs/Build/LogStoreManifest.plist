@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>28F0C04B-187F-4C71-A4C6-9612EB89FAD5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>28F0C04B-187F-4C71-A4C6-9612EB89FAD5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-login project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-login</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-login</string>
+			<key>timeStartedRecording</key>
+			<real>617954729.35584104</real>
+			<key>timeStoppedRecording</key>
+			<real>617954733.21088004</real>
+			<key>title</key>
+			<string>Build IOS-login</string>
+			<key>uniqueIdentifier</key>
+			<string>28F0C04B-187F-4C71-A4C6-9612EB89FAD5</string>
+		</dict>
+		<key>3586E32E-7B7F-496C-BBF9-68D3F771DDD0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3586E32E-7B7F-496C-BBF9-68D3F771DDD0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-login project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-login</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-login</string>
+			<key>timeStartedRecording</key>
+			<real>617954672.77423596</real>
+			<key>timeStoppedRecording</key>
+			<real>617954673.256832</real>
+			<key>title</key>
+			<string>Build IOS-login</string>
+			<key>uniqueIdentifier</key>
+			<string>3586E32E-7B7F-496C-BBF9-68D3F771DDD0</string>
+		</dict>
+		<key>81CE2ED9-0E85-4FE1-8268-6DA5AF54FCA4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>81CE2ED9-0E85-4FE1-8268-6DA5AF54FCA4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-login project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-login</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-login</string>
+			<key>timeStartedRecording</key>
+			<real>617955766.84598505</real>
+			<key>timeStoppedRecording</key>
+			<real>617955766.89778101</real>
+			<key>title</key>
+			<string>Build IOS-login</string>
+			<key>uniqueIdentifier</key>
+			<string>81CE2ED9-0E85-4FE1-8268-6DA5AF54FCA4</string>
+		</dict>
+		<key>96C77E57-C4AD-49ED-9430-0369B21FC391</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>96C77E57-C4AD-49ED-9430-0369B21FC391.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-login project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-login</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-login</string>
+			<key>timeStartedRecording</key>
+			<real>617955025.01952803</real>
+			<key>timeStoppedRecording</key>
+			<real>617955025.06776094</real>
+			<key>title</key>
+			<string>Build IOS-login</string>
+			<key>uniqueIdentifier</key>
+			<string>96C77E57-C4AD-49ED-9430-0369B21FC391</string>
+		</dict>
+		<key>E888F17A-5B73-47AA-8926-8E5A6991F5BA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E888F17A-5B73-47AA-8926-8E5A6991F5BA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-login project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-login</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-login</string>
+			<key>timeStartedRecording</key>
+			<real>617955987.15271902</real>
+			<key>timeStoppedRecording</key>
+			<real>617956000.74968803</real>
+			<key>title</key>
+			<string>Build IOS-login</string>
+			<key>uniqueIdentifier</key>
+			<string>E888F17A-5B73-47AA-8926-8E5A6991F5BA</string>
+		</dict>
+		<key>F6D1141A-83DE-4A2C-B1BA-5939B515DA65</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F6D1141A-83DE-4A2C-B1BA-5939B515DA65.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-login project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-login</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-login</string>
+			<key>timeStartedRecording</key>
+			<real>617954272.950472</real>
+			<key>timeStoppedRecording</key>
+			<real>617954277.06785703</real>
+			<key>title</key>
+			<string>Build IOS-login</string>
+			<key>uniqueIdentifier</key>
+			<string>F6D1141A-83DE-4A2C-B1BA-5939B515DA65</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

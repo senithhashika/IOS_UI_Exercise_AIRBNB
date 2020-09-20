@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "a65f8550b9c04d83451619957964c085"
+build_time: [1596263187, 222855000]
+inputs:
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/CustomUI/RoundButton.swift": [1596260974, 753067374]
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/ViewController.swift": [1596261030, 313294768]
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/CustomUI/UpdatedButton.swift": [1596261568, 164250268]
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/PasswordViewController.swift": [1596261926, 249903097]
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/AppDelegate.swift": [1596260995, 40973902]
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/CustomUI/UpdatedTextField.swift": [1596261666, 726052667]
+  "/Users/isururajapaksha/Desktop/Senith_project/Senith/IOS_Exercise/AirBNBSenithEx1/SupportFiles/SceneDelegate.swift": [1596261001, 216716051]

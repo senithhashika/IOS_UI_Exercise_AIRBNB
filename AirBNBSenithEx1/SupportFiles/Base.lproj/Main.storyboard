@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AirBNBSenithEx1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziV-rr-M30">
+                                <rect key="frame" x="328" y="54" width="56" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="WMG-XU-uO1"/>
+                                    <constraint firstAttribute="width" constant="56" id="ZOW-ie-qJe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvU-rs-gvw">
+                                <rect key="frame" x="30" y="54" width="30" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="hnU-OU-qKz"/>
+                                    <constraint firstAttribute="height" constant="36" id="ut7-YB-ADT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirbnbLogo" translatesAutoresizingMaskIntoConstraints="NO" id="sz3-dd-Gpt">
+                                <rect key="frame" x="30" y="140" width="100" height="100"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6Bm-RD-gUV"/>
+                                    <constraint firstAttribute="width" constant="100" id="ncV-8J-0qM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Airbnb." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlH-Wk-dnb">
+                                <rect key="frame" x="40" y="270" width="238" height="32"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqs-Ln-FRV" customClass="UpdatedButton" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="372" width="334" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Sc4-NQ-uxn"/>
+                                    <constraint firstAttribute="height" constant="50" id="z2I-JJ-zd0"/>
+                                </constraints>
+                                <state key="normal" title="Continue with Google">
+                                    <color key="titleColor" red="0.058823529409999999" green="0.48627450979999998" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RV-AW-let" customClass="UpdatedButton" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="452" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wom-ZH-QQo"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.54854780439999995" blue="0.56903845070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Create Account">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ogZ-ji-7tp" kind="presentation" modalPresentationStyle="fullScreen" id="VuD-0j-zHc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd4-66-th2">
+                                <rect key="frame" x="40" y="522" width="114" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdI-IZ-fnh">
+                                <rect key="frame" x="40" y="734" width="334" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">By siging up, i agreed to Airbnb's terms of Service, non-Discrimination Policy, payments terms of Service, privacy, Guest Refund Policy, and host guarantee terms.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.48627450979999998" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hd4-66-th2" firstAttribute="top" secondItem="9RV-AW-let" secondAttribute="bottom" constant="20" id="4e3-f4-fLE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ziV-rr-M30" secondAttribute="trailing" constant="30" id="9Vu-S9-aOI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9RV-AW-let" secondAttribute="trailing" constant="40" id="Cfw-2C-ajq"/>
+                            <constraint firstItem="wlH-Wk-dnb" firstAttribute="top" secondItem="sz3-dd-Gpt" secondAttribute="bottom" constant="30" id="EJS-QE-BuP"/>
+                            <constraint firstItem="LvU-rs-gvw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="FAR-dU-F1v"/>
+                            <constraint firstItem="sz3-dd-Gpt" firstAttribute="top" secondItem="LvU-rs-gvw" secondAttribute="bottom" constant="50" id="HMA-LY-8SP"/>
+                            <constraint firstItem="ziV-rr-M30" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="OWH-Y4-CBO"/>
+                            <constraint firstItem="9RV-AW-let" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Sgc-32-0hA"/>
+                            <constraint firstItem="hd4-66-th2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="VoM-Z8-YxD"/>
+                            <constraint firstItem="zqs-Ln-FRV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Y0F-uk-MYc"/>
+                            <constraint firstItem="zqs-Ln-FRV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Yqg-Fv-hJa"/>
+                            <constraint firstItem="wlH-Wk-dnb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="bnP-91-mFl"/>
+                            <constraint firstItem="sz3-dd-Gpt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="e7b-nF-axC"/>
+                            <constraint firstItem="LvU-rs-gvw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="fo7-e2-nqf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zqs-Ln-FRV" secondAttribute="trailing" constant="40" id="hC7-rp-Er5"/>
+                            <constraint firstItem="9RV-AW-let" firstAttribute="top" secondItem="zqs-Ln-FRV" secondAttribute="bottom" constant="30" id="rqf-rj-6C3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zqs-Ln-FRV" secondAttribute="trailing" constant="40" id="tK1-52-FDP"/>
+                            <constraint firstItem="zqs-Ln-FRV" firstAttribute="top" secondItem="wlH-Wk-dnb" secondAttribute="bottom" constant="70" id="teB-ZJ-aIL"/>
+                            <constraint firstItem="wlH-Wk-dnb" firstAttribute="top" secondItem="sz3-dd-Gpt" secondAttribute="bottom" constant="30" id="xDK-iQ-GZp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cVj-YY-exa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="159"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L73-sP-3GF">
+            <objects>
+                <viewController id="ogZ-ji-7tp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e5e-T9-uNP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rrg-a8-HG0">
+                                <rect key="frame" x="40" y="40" width="19.666666666666671" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="GZf-Qc-GRn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Your name?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPc-7U-5qb">
+                                <rect key="frame" x="40" y="97" width="261.33333333333331" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMV-tB-PaW">
+                                <rect key="frame" x="40" y="182" width="118" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAB-c5-qpz">
+                                <rect key="frame" x="40" y="290" width="112" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zHD-xC-QEr" customClass="UpdatedTextFiled" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="216" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qpG-N2-BGA" customClass="UpdatedTextFiled" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="324" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bl-80-jbg">
+                                <rect key="frame" x="331" y="771" width="43" height="41"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrowshape.turn.up.right.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large" weight="thin">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                                <connections>
+                                    <segue destination="K3t-M4-mIG" kind="presentation" modalPresentationStyle="fullScreen" id="WWz-MV-Vwh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.54854780439999995" blue="0.56903845070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="unT-eG-F3f" firstAttribute="trailing" secondItem="zHD-xC-QEr" secondAttribute="trailing" constant="40" id="1jl-8m-baj"/>
+                            <constraint firstItem="yPc-7U-5qb" firstAttribute="top" secondItem="Rrg-a8-HG0" secondAttribute="bottom" constant="40" id="2Ry-eQ-8id"/>
+                            <constraint firstItem="fMV-tB-PaW" firstAttribute="leading" secondItem="unT-eG-F3f" secondAttribute="leading" constant="40" id="3xu-1m-0Fg"/>
+                            <constraint firstItem="fMV-tB-PaW" firstAttribute="top" secondItem="yPc-7U-5qb" secondAttribute="bottom" constant="50" id="43f-OL-K19"/>
+                            <constraint firstItem="unT-eG-F3f" firstAttribute="bottom" secondItem="6bl-80-jbg" secondAttribute="bottom" constant="50" id="4vz-GJ-aua"/>
+                            <constraint firstItem="qpG-N2-BGA" firstAttribute="top" secondItem="oAB-c5-qpz" secondAttribute="bottom" constant="10" id="8a8-ne-vDW"/>
+                            <constraint firstItem="oAB-c5-qpz" firstAttribute="leading" secondItem="unT-eG-F3f" secondAttribute="leading" constant="40" id="DE9-lm-FKT"/>
+                            <constraint firstItem="zHD-xC-QEr" firstAttribute="top" secondItem="fMV-tB-PaW" secondAttribute="bottom" constant="10" id="N3K-ZI-T9R"/>
+                            <constraint firstItem="unT-eG-F3f" firstAttribute="trailing" secondItem="6bl-80-jbg" secondAttribute="trailing" constant="40" id="Q7B-PA-rzh"/>
+                            <constraint firstItem="yPc-7U-5qb" firstAttribute="leading" secondItem="unT-eG-F3f" secondAttribute="leading" constant="40" id="Qas-Vx-JIU"/>
+                            <constraint firstItem="unT-eG-F3f" firstAttribute="trailing" secondItem="qpG-N2-BGA" secondAttribute="trailing" constant="40" id="Tw3-Ax-nHv"/>
+                            <constraint firstItem="Rrg-a8-HG0" firstAttribute="top" secondItem="e5e-T9-uNP" secondAttribute="top" constant="40" id="UBj-Hi-8Z3"/>
+                            <constraint firstItem="oAB-c5-qpz" firstAttribute="top" secondItem="zHD-xC-QEr" secondAttribute="bottom" constant="40" id="ceu-JK-2cg"/>
+                            <constraint firstItem="zHD-xC-QEr" firstAttribute="leading" secondItem="unT-eG-F3f" secondAttribute="leading" constant="40" id="ghq-YA-TGn"/>
+                            <constraint firstItem="qpG-N2-BGA" firstAttribute="leading" secondItem="unT-eG-F3f" secondAttribute="leading" constant="40" id="rjr-ZS-KYw"/>
+                            <constraint firstItem="Rrg-a8-HG0" firstAttribute="leading" secondItem="unT-eG-F3f" secondAttribute="leading" constant="40" id="vgK-FM-sEa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="unT-eG-F3f"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uSD-Ed-MGF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUC-c1-qzu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="138.61607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QdG-Uk-cck">
+            <objects>
+                <viewController id="K3t-M4-mIG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5C7-tD-4yv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And, your email?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47x-rI-xzj">
+                                <rect key="frame" x="40" y="97" width="226" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCB-4x-u39">
+                                <rect key="frame" x="40" y="40" width="19.666666666666671" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="ogZ-ji-7tp" kind="presentation" modalPresentationStyle="fullScreen" id="aH0-Lo-GPy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkA-w0-xvc">
+                                <rect key="frame" x="40" y="182" width="59" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Seg-nT-Kgd" customClass="UpdatedTextFiled" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="216" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCK-QS-sEz">
+                                <rect key="frame" x="331" y="771" width="43" height="41"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrowshape.turn.up.right.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large" weight="thin">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                                <connections>
+                                    <segue destination="77V-dc-caZ" kind="presentation" modalPresentationStyle="fullScreen" id="TLQ-hP-TK5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.54854780439999995" blue="0.56903845070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="47x-rI-xzj" firstAttribute="leading" secondItem="GCK-Kd-lTS" secondAttribute="leading" constant="40" id="2SQ-Bz-FaC"/>
+                            <constraint firstItem="GCK-Kd-lTS" firstAttribute="trailing" secondItem="Seg-nT-Kgd" secondAttribute="trailing" constant="40" id="Lf5-2t-XyZ"/>
+                            <constraint firstItem="Seg-nT-Kgd" firstAttribute="top" secondItem="WkA-w0-xvc" secondAttribute="bottom" constant="10" id="MHG-KP-uVo"/>
+                            <constraint firstItem="47x-rI-xzj" firstAttribute="top" secondItem="yCB-4x-u39" secondAttribute="bottom" constant="40" id="RKn-s5-c13"/>
+                            <constraint firstItem="47x-rI-xzj" firstAttribute="leading" secondItem="GCK-Kd-lTS" secondAttribute="leading" constant="40" id="VoE-Hm-ycN"/>
+                            <constraint firstItem="GCK-Kd-lTS" firstAttribute="trailing" secondItem="WCK-QS-sEz" secondAttribute="trailing" constant="40" id="YjQ-fC-vb2"/>
+                            <constraint firstItem="GCK-Kd-lTS" firstAttribute="bottom" secondItem="WCK-QS-sEz" secondAttribute="bottom" constant="50" id="ZVD-WO-IO1"/>
+                            <constraint firstItem="WkA-w0-xvc" firstAttribute="top" secondItem="47x-rI-xzj" secondAttribute="bottom" constant="50" id="afw-32-wBs"/>
+                            <constraint firstItem="47x-rI-xzj" firstAttribute="top" secondItem="yCB-4x-u39" secondAttribute="bottom" constant="40" id="bYv-lw-PwR"/>
+                            <constraint firstItem="yCB-4x-u39" firstAttribute="leading" secondItem="5C7-tD-4yv" secondAttribute="leading" constant="40" id="da1-4p-TwU"/>
+                            <constraint firstItem="yCB-4x-u39" firstAttribute="top" secondItem="5C7-tD-4yv" secondAttribute="top" constant="40" id="vYB-st-343"/>
+                            <constraint firstItem="WkA-w0-xvc" firstAttribute="leading" secondItem="GCK-Kd-lTS" secondAttribute="leading" constant="40" id="vuT-B2-A3c"/>
+                            <constraint firstItem="Seg-nT-Kgd" firstAttribute="leading" secondItem="GCK-Kd-lTS" secondAttribute="leading" constant="40" id="xBg-Fr-O1B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GCK-Kd-lTS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M7y-E5-sOc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1634.7826086956522" y="138.61607142857142"/>
+        </scene>
+        <!--Password View Controller-->
+        <scene sceneID="NHU-cB-XBk">
+            <objects>
+                <viewController id="77V-dc-caZ" customClass="PasswordViewController" customModule="AirBNBSenithEx1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHV-zO-dgo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMJ-Ac-qot">
+                                <rect key="frame" x="40" y="87" width="255" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="Your password must include at least one symbol and be 8 or more characters long." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LPL-MW-eOV">
+                                <rect key="frame" x="24" y="178" width="316" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffs-rG-iBC" customClass="UpdatedTextFiled" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="388" width="334" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="txtPassword"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qp-lU-DnP">
+                                <rect key="frame" x="331" y="781" width="43" height="41"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrowshape.turn.up.right.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large" weight="thin">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                                <connections>
+                                    <segue destination="KHV-k1-UJS" kind="presentation" modalPresentationStyle="fullScreen" id="wWm-4b-RTN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAS-e8-dqo">
+                                <rect key="frame" x="40" y="40" width="19.666666666666671" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="K3t-M4-mIG" kind="presentation" modalPresentationStyle="fullScreen" id="5sT-oR-8Sr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGS-Zq-z4a">
+                                <rect key="frame" x="323" y="320" width="51" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Show">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnShowPassword:" destination="77V-dc-caZ" eventType="touchUpInside" id="KIb-aK-EvZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsP-U2-xfU">
+                                <rect key="frame" x="40" y="332" width="89" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.54854780439999995" blue="0.56903845070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Leg-ge-P4W" firstAttribute="trailing" secondItem="nGS-Zq-z4a" secondAttribute="trailing" constant="40" id="1pW-GI-hXd"/>
+                            <constraint firstItem="vAS-e8-dqo" firstAttribute="top" secondItem="tHV-zO-dgo" secondAttribute="top" constant="40" id="3Ya-ev-ppI"/>
+                            <constraint firstItem="ffs-rG-iBC" firstAttribute="leading" secondItem="Leg-ge-P4W" secondAttribute="leading" constant="40" id="4oF-YY-K8v"/>
+                            <constraint firstItem="FsP-U2-xfU" firstAttribute="leading" secondItem="Leg-ge-P4W" secondAttribute="leading" constant="40" id="7Wg-Hf-lC0"/>
+                            <constraint firstItem="Leg-ge-P4W" firstAttribute="bottom" secondItem="2Qp-lU-DnP" secondAttribute="bottom" constant="40" id="Eek-M2-oaU"/>
+                            <constraint firstItem="FsP-U2-xfU" firstAttribute="top" secondItem="LPL-MW-eOV" secondAttribute="bottom" constant="30" id="M1x-Dj-ntd"/>
+                            <constraint firstItem="JMJ-Ac-qot" firstAttribute="leading" secondItem="Leg-ge-P4W" secondAttribute="leading" constant="40" id="PZI-Oh-gFp"/>
+                            <constraint firstItem="Leg-ge-P4W" firstAttribute="trailing" secondItem="ffs-rG-iBC" secondAttribute="trailing" constant="40" id="QOM-KL-15s"/>
+                            <constraint firstItem="vAS-e8-dqo" firstAttribute="leading" secondItem="Leg-ge-P4W" secondAttribute="leading" constant="40" id="ciV-pb-utc"/>
+                            <constraint firstItem="Leg-ge-P4W" firstAttribute="trailing" secondItem="2Qp-lU-DnP" secondAttribute="trailing" constant="40" id="e7U-0L-10B"/>
+                            <constraint firstItem="ffs-rG-iBC" firstAttribute="top" secondItem="FsP-U2-xfU" secondAttribute="bottom" constant="30" id="eZP-PR-JFm"/>
+                            <constraint firstItem="LPL-MW-eOV" firstAttribute="leading" secondItem="Leg-ge-P4W" secondAttribute="leading" constant="40" id="gJK-rn-xrh"/>
+                            <constraint firstItem="nGS-Zq-z4a" firstAttribute="top" secondItem="LPL-MW-eOV" secondAttribute="bottom" constant="30" id="pMh-l0-788"/>
+                            <constraint firstItem="LPL-MW-eOV" firstAttribute="top" secondItem="JMJ-Ac-qot" secondAttribute="bottom" constant="30" id="ry0-Ya-MQE"/>
+                            <constraint firstItem="JMJ-Ac-qot" firstAttribute="top" secondItem="vAS-e8-dqo" secondAttribute="bottom" constant="30" id="yng-E6-9le"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Leg-ge-P4W"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NBl-hc-Oji"/>
+                    <connections>
+                        <outlet property="Ps" destination="ffs-rG-iBC" id="BNf-Hj-Dnn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybS-z5-ylN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2357.971014492754" y="138.61607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mru-gr-A3U">
+            <objects>
+                <viewController id="KHV-k1-UJS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6bP-A3-MGx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njB-ib-2eD">
+                                <rect key="frame" x="95" y="83" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrow.left" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27R-i9-OVc">
+                                <rect key="frame" x="40" y="40" width="19.666666666666671" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="77V-dc-caZ" kind="presentation" modalPresentationStyle="fullScreen" id="UlY-eC-YVG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When is your birthday?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0S-7V-iGZ">
+                                <rect key="frame" x="40" y="94" width="309" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="You must be at least 18 years old to use Airbnb. Others won't see your birthday." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PwI-xl-9Na">
+                                <rect key="frame" x="27" y="176" width="334" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bkr-zP-7xN" customClass="UpdatedTextFiled" customModule="AirBNBSenithEx1" customModuleProvider="target">
+                                <rect key="frame" x="40" y="388" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiC-6F-uzm">
+                                <rect key="frame" x="40" y="334" width="75" height="24"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.54854780439999995" blue="0.56903845070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="B0S-7V-iGZ" firstAttribute="top" secondItem="27R-i9-OVc" secondAttribute="bottom" constant="30" id="0aP-td-8ny"/>
+                            <constraint firstItem="YiC-6F-uzm" firstAttribute="top" secondItem="PwI-xl-9Na" secondAttribute="bottom" constant="30" id="9mX-M9-KAC"/>
+                            <constraint firstItem="PwI-xl-9Na" firstAttribute="top" secondItem="B0S-7V-iGZ" secondAttribute="bottom" constant="30" id="AYW-rt-e3Z"/>
+                            <constraint firstItem="B0S-7V-iGZ" firstAttribute="leading" secondItem="izf-Lx-bYn" secondAttribute="leading" constant="40" id="J9c-Je-mm0"/>
+                            <constraint firstItem="bkr-zP-7xN" firstAttribute="top" secondItem="YiC-6F-uzm" secondAttribute="bottom" constant="30" id="Kto-BA-eax"/>
+                            <constraint firstItem="bkr-zP-7xN" firstAttribute="leading" secondItem="izf-Lx-bYn" secondAttribute="leading" constant="40" id="QVu-Dk-gw0"/>
+                            <constraint firstItem="YiC-6F-uzm" firstAttribute="leading" secondItem="izf-Lx-bYn" secondAttribute="leading" constant="40" id="V3r-5G-e4L"/>
+                            <constraint firstItem="27R-i9-OVc" firstAttribute="leading" secondItem="6bP-A3-MGx" secondAttribute="leading" constant="40" id="WNG-NC-y8C"/>
+                            <constraint firstItem="PwI-xl-9Na" firstAttribute="leading" secondItem="izf-Lx-bYn" secondAttribute="leading" constant="40" id="dDp-63-RM5"/>
+                            <constraint firstItem="izf-Lx-bYn" firstAttribute="trailing" secondItem="bkr-zP-7xN" secondAttribute="trailing" constant="40" id="iQh-a5-U0r"/>
+                            <constraint firstItem="27R-i9-OVc" firstAttribute="top" secondItem="6bP-A3-MGx" secondAttribute="top" constant="40" id="jRe-mL-DMS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="izf-Lx-bYn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPe-l6-fLR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3017" y="139"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="UlY-eC-YVG"/>
+        <segue reference="5sT-oR-8Sr"/>
+        <segue reference="aH0-Lo-GPy"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="AirbnbLogo" width="800" height="800"/>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="arrowshape.turn.up.right.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
